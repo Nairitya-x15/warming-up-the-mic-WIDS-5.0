@@ -8,7 +8,7 @@ warnings.filterwarnings("ignore", category=FutureWarning)
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
 import numpy as np
-
+print("Please ensure that TASK 1(FineTuneBERT) has been run and model has been saved for proper functionality")
 sms= input("ENTER MESSAGE TO BE CLASSIFIED AS HAM OR SPAM : ")
 print("Loading.....")
 
